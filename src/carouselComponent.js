@@ -4,8 +4,9 @@ import {LeftChevron} from './leftChevron';
 import {RightChevron} from './rightChevron';
 import {ImageCarousel} from './imageCarousel';
 import {TitleHeader} from './titleHeader';
+import './quiz.css';
 
-export class CarouselComponent extends React.Component {
+export default class CarouselComponent extends React.Component {
     
     constructor(props){
 
